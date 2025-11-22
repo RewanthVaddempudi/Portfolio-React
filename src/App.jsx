@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Project from "./components/Project";
@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 import Service from "./components/Service";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: (
@@ -17,7 +17,6 @@ function App() {
         </>
       ),
     },
-
     {
       path: "/service",
       element: (
@@ -26,7 +25,6 @@ function App() {
         </>
       ),
     },
-
     {
       path: "/about",
       element: (
@@ -35,17 +33,14 @@ function App() {
         </>
       ),
     },
-
     {
       path: "/project",
       element: (
         <>
-          <></>
           <Navbar /><Project />
         </>
       ),
     },
-    
     {
       path: "/contact",
       element: (
@@ -56,11 +51,7 @@ function App() {
     },
   ]);
 
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
