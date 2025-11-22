@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-90px); /* start above */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(10); /* end at normal position */
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.8s ease-out forwards;
+}
+
+@keyframes aboutSlideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-aboutSlideRight {
+  animation: aboutSlideRight 0.8s ease-out forwards;
+}
+
+
+@keyframes aboutSlideLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(150px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-aboutSlideLeft{
+    animation: aboutSlideLeft 0.8s ease-out forwards;
+}
