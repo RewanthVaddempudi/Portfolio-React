@@ -5,6 +5,8 @@ import ServicePreview from "./ServicePreview";
 import ProjectPreview from "./ProjectPreview";
 import ContactPreview from "./ContactPreview";
 import Footer from "./Footer";
+import HomeImg from "../assets/snaps/HomePageImage.jpg";
+
 
 function Home() {
   return (
@@ -54,7 +56,7 @@ function Home() {
         {/* RIGHT SIDE */}
         <div className="w-max h-max bg-blue-100/40 rounded-full p-8 flex items-center justify-center">
           <img
-            src="/HomePageImage.jpg"
+            src={HomeImg}
             alt="HomePageImage"
             className="w-[650px] h-auto rounded-[30px] object-cover"
           />

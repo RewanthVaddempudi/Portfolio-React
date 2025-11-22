@@ -1,25 +1,29 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
+import GithubImg from "../assets/snaps/GithubUserSearch.png";
+import ChessImg from "../assets/snaps/ChessGame.png";
+import TicTacToeImg from "../assets/snaps/TicTacToe Game.png";
+
 
 function Project() {
   const projects = [
     {
       title: "GitHub User Search",
       desc: "A React + Tailwind project to search GitHub users using real API.",
-      img: "/GithubUserSearch.png",
+      img: GithubImg,
       link: "https://github.com/RewanthVaddempudi/Github-User-Search"
     },
     {
       title: "Chess Game",
       desc: "Pure JavaScript logic-based chess board with DOM operations.",
-      img: "/ChessGame.png",
+      img: ChessImg,
       link: "https://github.com/RewanthVaddempudi/Chess-Game"
     },
     {
       title: "Tic Tac Toe",
       desc: "Beautiful UI with animations and smooth interactions.",
-      img: "/TicTacToe Game.png",
+      img: TicTacToeImg,
       link: "https://github.com/RewanthVaddempudi/Tic-Tac-Toe"
     },
     {

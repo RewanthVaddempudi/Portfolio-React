@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import PortfolioIcon from "../assets/snaps/Portfolio_Icon.png";
 
 function Navbar() {
   return (
@@ -11,7 +12,7 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2 ml-7">
           <img
-            src="/src/assets/Portfolio_Icon.png"
+            src={PortfolioIcon}
             alt="logo"
             className="w-10 h-10"
           />
