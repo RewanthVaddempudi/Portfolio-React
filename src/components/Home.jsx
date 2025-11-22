@@ -5,7 +5,7 @@ import ServicePreview from "./ServicePreview";
 import ProjectPreview from "./ProjectPreview";
 import ContactPreview from "./ContactPreview";
 import Footer from "./Footer";
-import HomeImg from "../assets/snaps/HomePageImage.jpg";
+import HomeImg from "../snaps/HomePageImage.jpg";
 
 
 function Home() {

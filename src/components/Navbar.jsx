@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import PortfolioIcon from "../assets/snaps/Portfolio_Icon.png";
+import PortfolioIcon from "../snaps/Portfolio_Icon.png";
 
 function Navbar() {
   return (

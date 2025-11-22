@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
-import GithubImg from "../assets/snaps/GithubUserSearch.png";
-import ChessImg from "../assets/snaps/ChessGame.png";
-import TicTacToeImg from "../assets/snaps/TicTacToe Game.png";
+import GithubImg from "../snaps/GithubUserSearch.png";
+import ChessImg from "../snaps/ChessGame.png";
+import TicTacToeImg from "../snaps/TicTacToe Game.png";
 
 
 function Project() {
